@@ -9,7 +9,8 @@ const User = () => {
       const data = await res.json();
       setProfile(data);
     }, 5000);
-  }, []);
+  });
+
   return (
     <div className="user">
       <h2>User Details</h2>
