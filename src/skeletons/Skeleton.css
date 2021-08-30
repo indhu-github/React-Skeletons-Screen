@@ -24,7 +24,16 @@
   width: 100px;
   height: 100px;
 }
+/* used for both skeleton profile and skeleton article */
 .skeleton-wrapper {
   margin: 20px auto;
   padding: 10px 15px;
+}
+
+/* skeleton profile */
+.skeleton-profile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  align-items: center;
 }
